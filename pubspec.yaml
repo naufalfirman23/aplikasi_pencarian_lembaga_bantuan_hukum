@@ -1,0 +1,58 @@
+name: hukum_apps
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  shared_preferences: ^2.3.4
+  intl: ^0.20.1
+  # webview_flutter: ^4.10.0
+  flutter_inappwebview:
+  geolocator:
+  google_maps_flutter: ^2.10.0
+  url_launcher: ^6.3.1
+  geocoding: ^3.0.0
+  pusher_client_socket: ^0.0.2+7
+  timeago: ^3.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/logo-white.png
+    - assets/img/logo-blue.jpg
+    - assets/img/logo-blue.png
+    - assets/img/logo.png
+    - assets/img/anam.png
+    - assets/img/gambar1.png
+    - assets/img/lawyer1.png
+    - assets/img/fried_chicken.jpg
+    - assets/img/payment/dana.png
+    - assets/img/payment/ovo.png
+    - assets/img/payment/shopee.png
+    - assets/img/payment/qris.png
+    - assets/img/makanan/ayam_geprek.png
+    - assets/img/makanan/ayam_penyet.jpg
+    - assets/img/makanan/nasi_goreng.jpg
+    - assets/img/makanan/telur_geprek.jpg
+    - assets/img/minuman/kopi.jpg
+    - assets/img/minuman/esteh.jpg
+    - assets/img/minuman/esjeruk.jpg
+    - assets/img/minuman/matcha.jpg
+    - assets/img/camilan/terong.jpg
+    - assets/img/camilan/jamur.jpg
+    - assets/img/camilan/onion.jpg
+    - assets/img/camilan/kentang.jpg
